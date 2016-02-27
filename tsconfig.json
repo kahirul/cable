@@ -1,11 +1,12 @@
 {
-	"version": "0.0.5",
+	"version": "0.0.7",
 	"compilerOptions": {
 		"target": "es5",
 		"module": "system",
+		"noEmitOnError": true,
 		"declaration": true,
+		"sourceMap": true,
 		"noLib": false,
-		"noImplicitAny": true,
-		"outDir": "./dist"
+		"noImplicitAny": true
 	}
 }
