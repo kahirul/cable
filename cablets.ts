@@ -1,4 +1,4 @@
-export class ActionCable {
+export default class ActionCable {
 
     createConsumer(url: string) : string {
         if (url === null) {
