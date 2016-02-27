@@ -1,12 +1,9 @@
 {
   "name": "cablets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Porting ActionCable to TypeScript. Credit http://goo.gl/HyM44w",
   "main": "dist/index.js",
   "scripts": {
-    "preinstall": "npm install autodts",
-    "postinstall": "autodts link",
-    "prepublish": "tsc && autodts generate",
     "test": "node test/test.js"
   },
   "author": "Khairul",
@@ -19,10 +16,8 @@
     "url": "git+https://github.com/kahirul/cable.git"
   },
   "dependencies": {
-    "autodts": "~0.0.6"
   },
   "devDependencies": {
-    "@lib/autodts-generator": "~0.0.2",
     "typescript": "~1.8.2"
   },
   "bugs": {
