@@ -1,8 +1,8 @@
 {
   "name": "cablets",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "Porting ActionCable to TypeScript. Credit http://goo.gl/HyM44w",
-  "main": "dist/cablets.js",
+  "main": "cablets.js",
   "scripts": {
     "test": "node test/test.js"
   },

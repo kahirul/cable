@@ -1,11 +1,15 @@
 {
-	"version": "0.0.5",
+	"version": "0.0.8",
 	"compilerOptions": {
 		"target": "es5",
 		"module": "system",
+		"moduleResolution": "node",
+		"noEmitOnError": true,
 		"declaration": true,
+		"sourceMap": true,
 		"noLib": false,
 		"noImplicitAny": true,
-		"outDir": "./dist"
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true
 	}
 }
