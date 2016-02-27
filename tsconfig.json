@@ -1,5 +1,5 @@
 {
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"compilerOptions": {
 		"target": "es5",
 		"module": "system",
@@ -7,8 +7,5 @@
 		"noLib": false,
 		"noImplicitAny": true,
 		"outDir": "./dist"
-	},
-	"files": [
-		"./src/index.ts"
-	]
+	}
 }

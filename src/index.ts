@@ -1,1 +1,1 @@
-export {default as ActionCable} from './cablets/ActionCable';
+export * from './cablets/ActionCable';
